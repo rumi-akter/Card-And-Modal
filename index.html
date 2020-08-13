@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card And Modal Disgen</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.75);">
+            <img class="card-img-top img-fluid" src="02.jpg" alt="imges"  >
+             <div class="card-body bg-light">
+                 <div class="card-tittle mb-2" style="font-size: 20px; font-weight: 600;">
+                    </h5>Responsive</h5>
+                 </div>
+                 <p class="card-text mb-2 text-justify">Laboriosam blanditiis atque sapiente modi maxime omnis repudiandae eius at quasi nulla fugiat repellat, consequatur sint a ipsam eligendi autem Laboriosam sin ipsm</p>
+                 <a class="btn btn-primary mt-4" href="#">Read More >></a>
+             </div>
+         </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card"  style="box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.75);">
+            <img class="card-img-top img-fluid" src="02.jpg" alt="imges">
+             <div class="card-body bg-light">
+                 <div class="card-tittle mb-2" style="font-size: 20px; font-weight: 600;">
+                    </h5>UI/UX</h5>
+                 </div>
+                 <p class="card-text mb-2  text-justify">Laboriosam blanditiis atque sapiente modi maxime omnis repudiandae eius at quasi nulla fugiat repellat, consequatur sint a ipsam eligendi autem Laboriosam sin ipsm</p>
+                 <a class="btn btn-primary mt-4" href="#">Read More >></a>
+             </div>
+         </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card"  style="box-shadow: 1px 3px 15px 0px rgba(0,0,0,0.75);">
+            <img class="card-img-top img-fluid" src="02.jpg" alt="imges" >
+             <div class="card-body bg-light">
+                 <div class="card-tittle mb-2" style="font-size: 20px; font-weight: 600;">
+                    </h5>Development</h5>
+                 </div>
+                 <p class="card-text mb-2  text-justify">Laboriosam blanditiis atque sapiente modi maxime omnis repudiandae eius at quasi nulla fugiat repellat, consequatur sint a ipsam eligendi autem Laboriosam sin ipsm</p>
+                 <a class="btn btn-primary mt-4" href="#">Read More >></a>
+             </div>
+         </div>
+    </div>
+    </div>
+  </div>
+  
+
+<footer class="text-center p-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>
+                  Card And Modal Disgen
+              </h2>
+              <span>Copyright © 2020</span>
+              <p class="p-2">Designed By: <a class="text-success" href="">Ruma Akter</a> </p>
+              <button data-toggle="modal" data-target="#contactmodal" type="button" class="btn btn-primary">Get In Touch</button>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!--START MODAL SECTION-->
+
+<div class="modal fade" id="contactmodal">
+  <div class="container">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content bg-wiite">
+              <div class="modal-header">
+                  <h2 class=" text-dark">Appoinment Scheduler</h2>
+                  <button class="close text-dark" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                  <form action="https://formspree.io/nayimagp@gmail.com" method="POST">
+                      <div class="form-group form-group-lg">
+                          <label for="name" class="font-weight-bold">First Name</label>
+                          <input type="text" class="form-control  mb-2" id="name" name="Name" placeholder="Enter Your First Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="email" class="font-weight-bold">Last Name</label>
+                          <input type="text" class="form-control mb-2" id="email" name="Email" placeholder="Enter Your Last Name" >
+                      </div>
+                      <div class="form-group">
+                        <label for="mail" class="font-weight-bold">UNCC Email</label>
+                        <input type="email" class="form-control mb-2" id="mail" name="Email" placeholder="Enter Your UNCC Email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="option" class="font-weight-bold">What Course Do You Need Help With?</label>
+                      <select class="form-control form-select mb-2" id="option">
+                        <Option selected>Select A Option</Option>
+                        <Option value="12">12</Option>
+                        <Option value="13">13</Option>
+                        <Option value="14">14</Option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="ption" class="font-weight-bold">Name Of Preferred Toutor</label>
+                    <select class="form-control form-select mb-2" id="ption">
+                      <Option selected>Anyome Available</Option>
+                      <option>Pritom Ahasan</option>
+                      <Option>Ruma Akter</Option>
+                      <Option>Jannat</Option>
+                      <Option>Akash</Option>
+                    </select>
+                </div>
+                    <div class="form-group">
+                      <label for="il" class="font-weight-bold">Calender Date</label>
+                      <input type="date" class="form-control mb-2" id="il" name="Email" placeholder="Example: May 28 2014">
+                  </div>
+                  <label class="font-weight-bold form-label" for="bb">Preferred Time</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" name="Email" placeholder="8:00" id="bb" aria-label="Exampl" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                      <div class="text-right">
+                        <button type="button" value="send" class="btn btn-primary mt-4">Schedule Appoinment</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
